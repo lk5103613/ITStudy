@@ -1,0 +1,85 @@
+@import "../vars";
+
+body {
+    position: relative;
+}
+
+.main-content {
+    font-family: @font-family-monospace;
+}
+
+.nav-tree {
+    font-size: @font-size-base;
+}
+
+.navbar {
+    margin-bottom: 0px !important;
+}
+
+img {
+    width: 100%;
+}
+
+.affix {
+    position: fixed;
+    width: 20%;
+    top: 0px;
+}
+
+.affix-bottom {
+    position: absolute;
+}
+
+.translate-content h1, h2, h3, h4, h6 {
+    padding-top:20px;
+    color: #563d7c !important;
+}
+
+.bs-docs-header {
+    position: relative;
+    padding: 30px 15px;
+    color: #cdbfe3;
+    text-shadow: 0 1px 0 rgba(0,0,0,.1);
+    background-color: #6f5499;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#563d7c),to(#6f5499));
+    background-image: -webkit-linear-gradient(top,#563d7c 0,#6f5499 100%);
+    background-image: -o-linear-gradient(top,#563d7c 0,#6f5499 100%);
+    background-image: linear-gradient(to bottom,#563d7c 0,#6f5499 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#563d7c', endColorstr='#6F5499', GradientType=0);
+    background-repeat: repeat-x;
+    font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+    text-align: left;
+}
+
+#side-controller {
+    background: #4ee4ff;
+    z-index: 10;
+    position: fixed;
+    right:10px;
+    bottom:300px;
+    opacity:0.5;
+}
+
+#side-controller:hover {
+    opacity:1;
+}
+
+.current-language {
+    color: #563d7c;
+    font-weight:bold;
+ 
+}
+
+dd {
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.example a:hover {
+    text-decoration: none;
+}
+
+#gifModal .modal-content {
+    min-width: 500px !important;
+    max-width:868px !important;
+}
