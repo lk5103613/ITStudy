@@ -33,6 +33,7 @@
 		<section class = "col-md-8 col-sm-7 col-xs-6">
 			<div id="#top"></div>
 			<jsp:include page="c1.jsp" />
+			<jsp:include page="c2.jsp" />
 		</section>
 	</div>
 </body>
